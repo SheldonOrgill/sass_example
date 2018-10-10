@@ -2,12 +2,17 @@
 comment*/
 /*VARIABLES*/
 /*aBASE STYLES*/
-body {
-  background-color: #bada55; }
-  body h1 {
-    font-size: 3.125em; }
-  body p {
-    font-size: 2.125em;
-    color: #f0f; }
+body h1 {
+  font-size: 3.125em; }
+body p {
+  font-size: 2.125em;
+  color: #f0f; }
+
+html {
+  background-image: url("../img/background_forrest.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 /*# sourceMappingURL=styles.css.map */
