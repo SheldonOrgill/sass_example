@@ -1,18 +1,31 @@
 /*this is a multi line 
 comment*/
 /*VARIABLES*/
-/*aBASE STYLES*/
 body h1 {
   font-size: 3.125em; }
 body p {
   font-size: 2.125em;
-  color: #f0f; }
+  color: #FF2E24; }
+body a:hover {
+  color: #5bba94; }
 
-html {
-  background-image: url("../img/background_forrest.jpg");
+.everything {
+  background-image: url("../img/forest_glowjpg.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+html {
+  background-color: black; }
+
+.main-header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.main-footer {
+  background-image: url("../img/footer.jpg");
+  background-size: cover;
+  background-position-y: -70%;
+  background-blend-mode: screen; }
 
 /*# sourceMappingURL=styles.css.map */

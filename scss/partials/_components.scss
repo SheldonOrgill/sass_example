@@ -1,7 +1,22 @@
-html { 
-    background-image: url('../img/background_forrest.jpg'); 
+.everything { 
+    background-image: url('../img/forest_glowjpg.jpg'); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+html{
+    background-color: black;
+}
+.main-header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-footer{
+    background-image: url('../img/footer.jpg');
+    
+    background-size: cover;
+    background-position-y: -70%;
+    // opacity: 80%;
+    // background-color: red;
+  background-blend-mode: screen;
 }
