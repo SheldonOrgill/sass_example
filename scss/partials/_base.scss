@@ -1,14 +1,26 @@
 body{
     // background-color: $primary-color;
-    h1{
+    h1,h2{
         font-size: $font-size1;
+        color: $achor-color;
     }
     p{
         font-size:$font-size2;
-        color: $text-color1;
+        color: $paragraph1-color;
     }
     a:hover{
         color:$achor-color
     }
-    
+    .mountain1{
+     background-color: lightgray;
+     background-blend-mode: overlay;
+     width: 1300px;
+     height: 500px;
+    }
+}
+.tips{
+    color: $paragraph1-color;
+}
+.main-header{
+    color:$paragraph1-color;
 }

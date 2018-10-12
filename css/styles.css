@@ -1,13 +1,25 @@
 /*this is a multi line 
 comment*/
 /*VARIABLES*/
-body h1 {
-  font-size: 3.125em; }
+body h1, body h2 {
+  font-size: 3.125em;
+  color: #5bba94; }
 body p {
   font-size: 2.125em;
-  color: #FF2E24; }
+  color: white; }
 body a:hover {
   color: #5bba94; }
+body .mountain1 {
+  background-color: lightgray;
+  background-blend-mode: overlay;
+  width: 1300px;
+  height: 500px; }
+
+.tips {
+  color: white; }
+
+.main-header {
+  color: white; }
 
 .everything {
   background-image: url("../img/forest_glowjpg.jpg");
